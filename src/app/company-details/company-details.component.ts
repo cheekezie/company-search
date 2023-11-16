@@ -28,7 +28,8 @@ export class CompanyDetailsComponent {
     }
     this.company = JSON.parse(company);
   }
-  // Go back to company details view
+
+  // Go back to search page or manin company profile tab
   goBack() {
     if (this.activeTab === 1) {
       this.activeTab = 0;
